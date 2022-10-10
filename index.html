@@ -14,13 +14,13 @@
             <p>Operação Curiosidade</p>
         </section>
         <section id="formulario">
-            <form action="" method="post" autocomplete="on">
+            <form action="dashboard.html" method="post" name="meuForm" autocomplete="on" onsubmit="validaLogin();">
                 <div class="campo">
                     <label for="login">Email</label>
                     <input type="email" name="login" id="login" placeholder="Email" autocomplete="email">
 
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" id="senha" placeholder="Senha" autocomplete="current-password">
+                    <input type="password" name="senha" id="senha" placeholder="Senha" autocomplete="current-password" minlength="8">
                 </div>
 
                 <div><input type="submit" value="ENTRAR"></div>
