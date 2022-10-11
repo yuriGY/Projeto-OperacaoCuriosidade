@@ -25,7 +25,7 @@ header > section#busca{
     padding-left: 15px;
     width: 40%;
 
-    transform: translateY(-9px);
+    transform: translateY(-20px);
 }
 
 header > section#busca > input{
