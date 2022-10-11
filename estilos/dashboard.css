@@ -8,3 +8,144 @@
     padding: 0px;
 }
 
+header{   
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+    width: 72%;
+    height: 40px;
+    margin: 20px 15px 20px 0px;
+    padding-top: 20px;
+
+    float: right;
+    position: relative;
+}
+
+header > section#busca{
+    display: inline-block;
+    padding-left: 15px;
+    width: 40%;
+
+    transform: translateY(-9px);
+}
+
+header > section#busca > input{
+    background-color: rgb(246, 246, 246);
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+header > section#foto{
+    display: inline-block;
+
+    position: absolute;
+    transform: translateX(300px);
+}
+
+.linha{
+    display: inline-block;
+    border-left: 1px solid rgb(193, 192, 192);;
+    height: 35px;
+
+    transform: translate(430px, -5px) ;
+}
+
+header > section#sair{
+    display: inline-block;
+
+    float: right;
+    transform: translateX(-50px);
+}
+
+header > section#sair > a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
+
+    float: left;
+    width: 25%;
+    height: 100vh;
+}
+
+nav > section#logo{
+    background-color: rgb(239, 244, 252);
+    color: black;
+    display: block;
+    width: 90%;
+    height: 60px;
+    margin: 20px 20px 30px 15px;
+}
+
+nav > section#logo > h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5em;
+    margin-left: 15px;
+
+    float: left;
+    width: 25%;
+}
+
+nav > section#logo > p{
+    font-size: 0.85em;
+    padding-top: 22px;
+
+    float: right;
+    width: 65%;
+}
+
+nav > section#menu{
+    display: block;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
+nav > section#menu > span{
+    color: rgb(115, 110, 110);
+    padding: 5px 10px 0px 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.452);
+}
+
+nav > section#menu > a{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding-bottom: 5px;
+
+    font-size: 1.1em;
+    text-decoration: none;
+
+    transform: translateY(-5px);
+}
+
+nav > section#menu > hr{
+    width: 90%;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+main{  
+    float: right;
+    width: 73%;
+    height: 90vh;
+}
+
+main > section > div{
+    background-color: white;
+    display: inline-block;
+    width: 32%;
+    height: 200px;
+}
+
+/*
+rgb(65, 89, 150)
+rgb(63, 157, 47)
+rgb(193, 89, 89)
+*/

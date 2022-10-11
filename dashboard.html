@@ -5,44 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="shortcut icon" href="user.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/dashboard.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <header>
-        <section><input type="text" id="busca" onkeyup="barraBusca()" placeholder="Pesquisar..."></section>
+        <section id="busca">
+            <input type="text" onkeyup="barraBusca()" placeholder="Pesquisar...">
+        </section>
+        <section id="foto">
+            <p>Yuri Yoshida</p>
+        </section>
+        <div class="linha"></div>
+        <section id="sair">
+            <a href="index.html">SAIR</a>
+        </section>
     </header>
     <nav>
-        <section>
-
-        </section>
-        <section>
+        <section id="logo">
             <h1>OC</h1>
             <p>Operação Curiosidade</p>
-
-            <button>Home</button>
-            <button>Cadastro</button>
-            <button>Relatórios</button>
+        </section>
+        <section id="menu">
+            <span class="material-icons">home</span>
+            <a href="#">Home</a>
+            <hr>
+            <span class="material-icons">group_add</span>
+            <a href="#">Cadastro</a>
+            <hr>
+            <span class="material-icons">assessment</span>
+            <a href="#">Relatórios</a>
         </section>
     </nav>
     <main>
         <section>
             <div>
-
+                <h2></h2>
+                <p></p>
             </div>
             <div>
-
+                <h2></h2>
+                <p></p>
             </div>
             <div>
-
+                <h2></h2>
+                <p></p>
             </div>
         </section>
         <section>
-
+            <h2></h2>
         </section>
     </main>
-    <footer>
-
-    </footer>
 
     <script src="scripts/script.js"></script>
 </body>
