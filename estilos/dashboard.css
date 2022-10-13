@@ -8,6 +8,11 @@
     padding: 0px;
 }
 
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
 header{   
     background-color: rgb(237, 237, 237);
     border-radius: 5px;
@@ -137,12 +142,13 @@ nav > section#menu > hr{
 
 body{
     background-color: rgb(245, 245, 245);
+    overflow: hidden;
 }
 
 main{  
     float: right;
     width: 73%;
-    height: 90vh;
+    height: 100vh;
 }
 
 main > section > div{
@@ -151,6 +157,56 @@ main > section > div{
     margin: 3px;
     width: 32%;
     height: 200px;
+}
+
+main > section#tabela{
+    background-color: white;
+    width: 99%;
+    height: 55%;
+}
+
+table{
+    width: 96%;
+    margin: 15px;
+    border-collapse: collapse;
+
+    position: relative;
+}
+
+caption{
+    color: rgb(127, 127, 127);
+    font-size: 1.1em;
+    font-weight: bolder;
+    padding: 30px 0px 0px;
+    text-align: left;
+}
+
+th{
+    color: rgb(127, 127, 127);
+    font-size: 0.8em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+tr{
+    border-bottom: 1px solid black;
+}
+
+td{
+    color: rgb(78, 78, 78);
+}
+
+section#tabela > table > tbody > tr > td.stat{
+    text-align: center;
+}
+
+.mail{
+    position: absolute;
+    left: 40%;
+}
+.stat{
+    position: absolute;
+    left: 90%;
 }
 
 /*
