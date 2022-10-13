@@ -159,6 +159,47 @@ main > section > div{
     height: 200px;
 }
 
+div > h2{
+    font-size: 4em;
+    font-weight: lighter;
+
+    position: relative;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+div#tCad > h2{
+    color: rgb(65, 89, 150);
+}
+
+div#mCad > h2{
+    color: rgb(63, 157, 47)
+}
+
+div#pCad > h2{
+    color: rgb(193, 89, 89)
+}
+
+div > p{
+    color: rgb(127, 127, 127);
+    
+    position: absolute;
+    top: 44%;
+}
+
+div#tCad > p{
+    left: 40%;
+}
+
+div#mCad > p{
+    left: 61%;
+}
+
+div#pCad > p{
+    left: 79%;
+}
+
 main > section#tabela{
     background-color: white;
     width: 99%;
@@ -186,6 +227,7 @@ th{
     font-size: 0.8em;
     font-weight: lighter;
     text-align: left;
+    padding: 30px 0px 10px 0px;
 }
 
 tr{
@@ -194,23 +236,24 @@ tr{
 
 td{
     color: rgb(78, 78, 78);
+    padding: 10px;
 }
 
-section#tabela > table > tbody > tr > td.stat{
-    text-align: center;
+th.nome{
+    position: relative;
+    left: 1.2%;
 }
 
 .mail{
     position: absolute;
     left: 40%;
 }
-.stat{
-    position: absolute;
-    left: 90%;
+
+th.mail{
+    left: 41%;
 }
 
-/*
-rgb(65, 89, 150)
-rgb(63, 157, 47)
-rgb(193, 89, 89)
-*/
+.stat{
+    position: absolute;
+    left: 91%;
+}
