@@ -148,6 +148,7 @@ main{
 main > section > div{
     background-color: white;
     display: inline-block;
+    margin: 3px;
     width: 32%;
     height: 200px;
 }
