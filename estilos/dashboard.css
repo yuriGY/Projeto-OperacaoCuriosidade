@@ -13,7 +13,7 @@ header{
     border-radius: 5px;
     width: 72%;
     height: 40px;
-    margin: 20px 15px 20px 0px;
+    margin: 20px 15px 20px 15px;
     padding-top: 20px;
 
     float: right;
@@ -25,7 +25,8 @@ header > section#busca{
     padding-left: 15px;
     width: 40%;
 
-    transform: translateY(-20px);
+    position: absolute;
+    top: 20%;
 }
 
 header > section#busca > input{
@@ -41,7 +42,9 @@ header > section#foto{
     display: inline-block;
 
     position: absolute;
-    transform: translateX(300px);
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
 }
 
 .linha{
@@ -49,14 +52,19 @@ header > section#foto{
     border-left: 1px solid rgb(193, 192, 192);;
     height: 35px;
 
-    transform: translate(430px, -5px) ;
+    position: absolute;
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%);
 }
 
 header > section#sair{
     display: inline-block;
 
-    float: right;
-    transform: translateX(-50px);
+    position: absolute;
+    top: 50%;
+    left: 94%;
+    transform: translate(-50%, -50%);
 }
 
 header > section#sair > a{
