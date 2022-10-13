@@ -184,20 +184,20 @@ div#pCad > h2{
 div > p{
     color: rgb(127, 127, 127);
     
-    position: absolute;
-    top: 44%;
+    position: relative;
+    top: 50%;
 }
 
 div#tCad > p{
-    left: 40%;
+    left: 55%;
 }
 
 div#mCad > p{
-    left: 61%;
+    left: 44%;
 }
 
 div#pCad > p{
-    left: 79%;
+    left: 15%;
 }
 
 main > section#tabela{
