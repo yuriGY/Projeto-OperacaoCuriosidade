@@ -185,20 +185,20 @@ div#pCad > h2{
 div > p{
     color: rgb(127, 127, 127);
     
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 45%;
 }
 
 div#tCad > p{
-    left: 55%;
+    left: 40%;
 }
 
 div#mCad > p{
-    left: 44%;
+    left: 61%;
 }
 
 div#pCad > p{
-    left: 15%;
+    left: 79%;
 }
 
 main > section#tabela{
