@@ -137,6 +137,7 @@ nav > section#menu > a{
 }
 
 nav > section#menu > hr{
+    
     width: 90%;
 }
 
@@ -231,7 +232,7 @@ th{
 }
 
 tr{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 td{
