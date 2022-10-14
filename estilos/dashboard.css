@@ -31,7 +31,7 @@ header > section#busca{
     width: 40%;
 
     position: absolute;
-    top: 20%;
+    top: 18%;
 }
 
 header > section#busca > input{
@@ -158,6 +158,8 @@ main > section > div{
     margin: 3px;
     width: 32%;
     height: 200px;
+
+    position: relative;
 }
 
 div > h2{
@@ -186,19 +188,19 @@ div > p{
     color: rgb(127, 127, 127);
     
     position: absolute;
-    top: 45%;
+    top: 88%;
 }
 
 div#tCad > p{
-    left: 40%;
+    left: 55%;
 }
 
 div#mCad > p{
-    left: 61%;
+    left: 43%;
 }
 
 div#pCad > p{
-    left: 79%;
+    left: 14%;
 }
 
 main > section#tabela{
