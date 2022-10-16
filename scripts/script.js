@@ -16,3 +16,11 @@ function validaLogin(event) {
   
   const meuForm = document.getElementById('formulario');
   formulario.addEventListener('submit', validaLogin);
+
+function entraLista(){
+    let dispT = document.getElementById('tabela');
+    let dispR = document.getElementById('relatorios');
+
+    dispR.style.display = "none";
+    dispT.style.display = "block";
+  }

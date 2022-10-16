@@ -4,6 +4,10 @@ section#relatorios{
     display: block;
 }
 
+section#relatorios > table > tbody > tr > td{
+    cursor: pointer;
+}
+
 section#tabela{
     display: none;
 }

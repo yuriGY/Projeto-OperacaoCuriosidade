@@ -4,87 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>listagem</title>
+    <title>Operação Curiosidade</title>
     <link rel="shortcut icon" href="user.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/main.css">
-    <link rel="stylesheet" href="estilos/tabela.css">
-    <link rel="stylesheet" href="estilos/listagem.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/login.css">
+    <script defer src="scripts/script.js"></script>
 </head>
 <body>
-    <header>
-        <section id="busca">
-            <input type="text" placeholder="Pesquisar...">
-        </section>
-        <section id="foto">
-            <p>Yuri Yoshida</p>
-        </section>
-        <div class="linha"></div>
-        <section id="sair">
-            <a href="login.html">SAIR</a>
-        </section>
-    </header>
-    <nav>
+    <main>
         <section id="logo">
             <h1>OC</h1>
             <p>Operação Curiosidade</p>
         </section>
-        <section id="menu">
-            <span class="material-icons">home</span>
-            <a href="dashboard.html">Home</a>
-            <hr>
-            <span class="material-icons">group_add</span>
-            <a href="listagem.html">Cadastro</a>
-            <hr>
-            <span class="material-icons">assessment</span>
-            <a href="relatorio.html">Relatórios</a>
-        </section>
-    </nav>
-    <main>
-        <section id="tabela">
-            <table>
-                <caption>Cadastros</caption>
-                <a href="cadastro.html">NOVO CADASTRO</a>
-                <thead>
-                    <tr>
-                        <th scope="col" class="nome">NOME</th>
-                        <th scope="col" class="mail">E-MAIL</th>
-                        <th scope="col" class="stat">STATUS</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Stephanie Nichols</td>
-                        <td class="mail">stephanienichols@gmail.com</td>
-                        <td class="stat">Ativo</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>Jeffrey Kane</td>
-                        <td class="mail">jeffrey_kane@yahoo.com</td>
-                        <td class="stat">Ativo</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>Darin Miller</td>
-                        <td class="mail">darinmiller01@gmail.com</td>
-                        <td class="stat">Ativo</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>Andrew Stuart</td>
-                        <td class="mail">andrewstuart@outlook.com</td>
-                        <td class="stat">Ativo</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>Valerie Aguilar</td>
-                        <td class="mail">valerie_aguiler@gmail.com</td>
-                        <td class="stat">Inativo</td>
-                    </tr>
-                </tbody>
-            </table>
+        <section id="formulario">
+            <form action="dashboard.html" method="post" name="meuForm" autocomplete="on">
+                <div class="campo">
+                    <label for="login">Email</label>
+                    <input type="email" name="login" id="login" placeholder="Email" autocomplete="email">
+
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" autocomplete="current-password" minlength="8">
+                </div>
+
+                <div><input type="submit" value="ENTRAR"></div>
+            </form>
         </section>
     </main>
 </body>
