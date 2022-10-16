@@ -70,6 +70,14 @@ th.mail{
 }
 
 .stat{
-    position: absolute;
-    left: 91%;
+    position: relative;
+    left: 10%;
+}
+
+th.stat{
+    left: 23%;
+}
+
+td.stat{
+    text-align: center;
 }
