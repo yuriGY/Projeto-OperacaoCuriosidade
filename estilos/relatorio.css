@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+section#relatorios{
+    display: block;
+}
+
+section#tabela{
+    display: none;
+}
+
+section#tabela > table > caption{
+    position: absolute;
+    top: -19%;
+}
+
+section#tabela > a{
+    background-color: rgb(87, 99, 160);
+}

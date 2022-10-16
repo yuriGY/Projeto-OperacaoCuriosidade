@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>listagem</title>
+    <title>Relatórios</title>
     <link rel="shortcut icon" href="user.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/main.css">
     <link rel="stylesheet" href="estilos/tabela.css">
-    <link rel="stylesheet" href="estilos/listagem.css">
+    <link rel="stylesheet" href="estilos/relatorio.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="scripts/script.js"></script>
 </head>
 <body>
     <header>
@@ -42,10 +43,25 @@
         </section>
     </nav>
     <main>
+        <section id="relatorios">
+            <table>
+                <caption>Relatórios</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" class="nome">NOME</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lista de usuário</td>
+                    </tr>             
+                </tbody>
+            </table>
+        </section>
         <section id="tabela">
             <table>
-                <caption>Cadastros</caption>
-                <a href="cadastro.html">NOVO CADASTRO</a>
+                <caption>Relatórios > Lista de usuários</caption>
+                <a href="imprimir.html">IMPRIMIR</a>
                 <thead>
                     <tr>
                         <th scope="col" class="nome">NOME</th>
