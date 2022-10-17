@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    header{ display: none; }
+
+    nav{ display: none; }
+
+    main{
+        width: 90vw; 
+    }
+
+    main > section#relatorios{
+        display: none;
+    }
+
+    main > section#tabela{
+        display: block;
+        color: black;
+    }
+
+    a{
+        display: none;
+    }
+
+    .stat{
+        display: none;
+    }
+}

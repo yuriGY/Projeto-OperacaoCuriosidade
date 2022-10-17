@@ -12,10 +12,10 @@ function validaLogin(event) {
             document.meuForm.senha.focus();
             event.preventDefault();
     }
-  }
+}
   
-  const meuForm = document.getElementById('formulario');
-  formulario.addEventListener('submit', validaLogin);
+const meuForm = document.getElementById('formulario');
+formulario.addEventListener('submit', validaLogin);
 
 function entraLista(){
     let dispT = document.getElementById('tabela');
@@ -23,4 +23,15 @@ function entraLista(){
 
     dispR.style.display = "none";
     dispT.style.display = "block";
-  }
+}
+
+  function printConteudo(divNome){
+    let printContents = document.getElementById(divNome).innerHTML;
+    let originalContents = document.body.innerHTML;
+
+    document.body.innerHTML = printContents;
+
+    window.print();
+
+    document.body.innerHTML = originalContents;
+}
