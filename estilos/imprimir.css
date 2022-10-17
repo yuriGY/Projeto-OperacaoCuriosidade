@@ -19,11 +19,18 @@
 
     main > section#tabela{
         display: block;
-        color: black;
     }
 
     a{
         display: none;
+    }
+
+    .nome{
+        color: black;
+    }
+
+    .mail{
+        color: black;
     }
 
     .stat{
