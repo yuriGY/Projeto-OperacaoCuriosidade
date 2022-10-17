@@ -55,27 +55,30 @@ td{
     padding: 10px;
 }
 
-th.nome{
+.nome{
     position: relative;
+}
+
+th.nome{
     left: 1.2%;
 }
 
 .mail{
-    position: absolute;
-    left: 40%;
+    position: relative;
+    left: 0%;
 }
 
 th.mail{
-    left: 41%;
+    left: 1%;
 }
 
 .stat{
     position: relative;
-    left: 10%;
+    left: 0%;
 }
 
 th.stat{
-    left: 23.5%;
+    left: 6%;
 }
 
 td.stat{
