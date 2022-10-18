@@ -49,36 +49,126 @@
 
         <form action="cadastro.html" method="post" name="cad" autocomplete="off" onsubmit="validaNome(event)">
             <h3>1º Fatos e Dados</h3>
-            <label for="nome">Nome</label> <br>
-            <input type="text" id="nome" name="nome"> <br>
 
-            <label for="idade">Faixa etária</label> <br>
-            <select id="idade" name="idade">
-                <option value="menores">Menor de idade</option>
-                <option value="18-34">18 a 34 anos</option>
-                <option value="35-59">35 a 59 anos</option>
-                <option value="60+">60 anos ou mais</option>
-            </select> <br>
-
-            <label for="mail">E-mail</label> <br>
-            <input type="email" id="mail" name="mail"> <br>
-
-            <label for="ender">Endereço</label> <br>
-            <input type="text" id="ender" name="ender"> <br>
-
-            <label for="info">Outras informações</label> <br>
-            <textarea name="info" rows="2" cols="100"></textarea>
-
-            <div>
-                <h3>2º Interesses</h3> <br>
-                <textarea name="inter" rows="2" cols="100"></textarea>
-
-                <h3>3º Sentimentos</h3> <br>
-                <textarea name="sent" rows="2" cols="100"></textarea>
-
-                <h3>4º Valores</h3> <br>
-                <textarea name="valor" rows="2" cols="100"></textarea>
+            <div id="nome">
+                <label for="nome">Nome</label> <br>
+                <input type="text" id="nome" name="nome">
             </div>
+
+            <div id="sel">
+                <label for="idade">Idade</label> <br>
+                <select id="idade" name="idade">
+                    <option value="" selected>--- Selecione ---</option>
+                    <option value="menores">Menor de idade</option>
+                    <option value="18">18 anos</option>
+                    <option value="19">19 anos</option>
+                    <option value="20">20 anos</option>
+                    <option value="21">21 anos</option>
+                    <option value="22">22 anos</option>
+                    <option value="23">23 anos</option>
+                    <option value="24">24 anos</option>
+                    <option value="25">25 anos</option>
+                    <option value="26">26 anos</option>
+                    <option value="27">27 anos</option>
+                    <option value="28">28 anos</option>
+                    <option value="29">29 anos</option>
+                    <option value="30">30 anos</option>
+                    <option value="31">31 anos</option>
+                    <option value="32">32 anos</option>
+                    <option value="33">33 anos</option>
+                    <option value="34">34 anos</option>
+                    <option value="35">35 anos</option>
+                    <option value="36">36 anos</option>
+                    <option value="37">37 anos</option>
+                    <option value="38">38 anos</option>
+                    <option value="39">39 anos</option>
+                    <option value="40">40 anos</option>
+                    <option value="41">41 anos</option>
+                    <option value="42">42 anos</option>
+                    <option value="43">43 anos</option>
+                    <option value="44">44 anos</option>
+                    <option value="45">45 anos</option>
+                    <option value="46">46 anos</option>
+                    <option value="47">47 anos</option>
+                    <option value="48">48 anos</option>
+                    <option value="49">49 anos</option>
+                    <option value="50">50 anos</option>
+                    <option value="51">51 anos</option>
+                    <option value="52">52 anos</option>
+                    <option value="53">53 anos</option>
+                    <option value="54">54 anos</option>
+                    <option value="55">55 anos</option>
+                    <option value="56">56 anos</option>
+                    <option value="57">57 anos</option>
+                    <option value="58">58 anos</option>
+                    <option value="59">59 anos</option>
+                    <option value="60">60 anos</option>
+                    <option value="61">61 anos</option>
+                    <option value="62">62 anos</option>
+                    <option value="63">63 anos</option>
+                    <option value="64">64 anos</option>
+                    <option value="65">65 anos</option>
+                    <option value="66">66 anos</option>
+                    <option value="67">67 anos</option>
+                    <option value="68">68 anos</option>
+                    <option value="69">69 anos</option>
+                    <option value="70">70 anos</option>
+                    <option value="71">71 anos</option>
+                    <option value="72">72 anos</option>
+                    <option value="73">73 anos</option>
+                    <option value="74">74 anos</option>
+                    <option value="75">75 anos</option>
+                    <option value="76">76 anos</option>
+                    <option value="77">77 anos</option>
+                    <option value="78">78 anos</option>
+                    <option value="79">79 anos</option>
+                    <option value="80">80 anos</option>
+                    <option value="81">81 anos</option>
+                    <option value="82">82 anos</option>
+                    <option value="83">83 anos</option>
+                    <option value="84">84 anos</option>
+                    <option value="85">85 anos</option>
+                    <option value="86">86 anos</option>
+                    <option value="87">87 anos</option>
+                    <option value="88">88 anos</option>
+                    <option value="89">89 anos</option>
+                    <option value="90">90 anos</option>
+                    <option value="91">91 anos</option>
+                    <option value="92">92 anos</option>
+                    <option value="93">93 anos</option>
+                    <option value="94">94 anos</option>
+                    <option value="95">95 anos</option>
+                    <option value="96">96 anos</option>
+                    <option value="97">97 anos</option>
+                    <option value="98">98 anos</option>
+                    <option value="99">99 anos</option>
+                    <option value="100">100 anos</option>
+                </select>
+            </div>
+
+            <div id="mail">
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" name="mail">
+            </div>
+
+            <div id="ender">
+                <label for="ender">Endereço</label> <br>
+                <input type="text" id="ender" name="ender">
+            </div>
+
+            <div id="info">
+                <label for="info">Outras informações</label> <br>
+                <textarea name="info" rows="3" cols="100"></textarea>
+            </div>
+
+            <h3>2º Interesses</h3>
+            <div><textarea name="inter" rows="5" cols="100"></textarea></div>
+
+            <h3>3º Sentimentos</h3>
+            <div><textarea name="sent" rows="4" cols="100"></textarea></div>
+
+            <h3>4º Valores</h3>
+            <div><textarea name="valor" rows="4" cols="100"></textarea></div>
 
             <br>
             <button type="submit">GRAVAR</button>

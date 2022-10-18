@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+header > section#busca{
+    top: 14%;
+}
+
+nav{
+    height: 180vh;
+}
+main{
+    height: 160vh;
+}
+
 main > form{
     margin: 12px 0px 15px 0px;
 }
@@ -15,16 +26,15 @@ main > h2{
 
 main > div{
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
 
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.541);
 
-
     position: absolute;
-    top: 5.6%;
-    left: 89.5%;
+    top: 4.1%;
+    left: 89.8%;
 }
 
 main > p{
@@ -43,11 +53,72 @@ h3{
     color: black;
     font-size: 1.1em;
     font-weight: bolder;
-    margin: auto;
     width: 96%;
+    margin: auto;
+    
+    margin-top: 20px    ;
 
     border-bottom: 2px solid rgb(207, 207, 207);
     
+}
+
+main > form > div{
+    margin: 20px 20px 0px 20px;
+}
+
+label{
+    font-size: 0.9em;
+}
+
+input{
+    background-color: rgb(252, 252, 252);
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+    
+    padding: 10px;
+    margin-top: 2px;
+
+    border: 1px solid rgb(238, 235, 235);
+    outline: none; 
+}
+
+select{
+    background-color: rgb(252, 252, 252);
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+   
+    padding: 10px;
+    margin-top: 2px;
+
+    border: 1px solid rgb(238, 235, 235);
+    outline: none;
+}
+
+textarea{
+    background-color: rgb(252, 252, 252);
+    box-sizing: border-box;
+    width: 100%;
+
+    padding: 10px;  
+    border: 1px solid rgb(238, 235, 235);
+    outline: none;
+}
+
+main > form > div#sel{
+    display: inline-block;   
+}
+
+main > form > div#sel > select > option{
+    text-align: center;
+}
+
+main > form > div#mail{
+    display: inline-block;
+    width: 77.75%;
 }
 
 main > form > button{
@@ -64,6 +135,7 @@ main > form > button{
     margin: 20px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 
     position: absolute;
     left: 30%;
