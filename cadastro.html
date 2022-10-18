@@ -43,7 +43,46 @@
         </section>
     </nav>
     <main>
+        <h2>Novo Cadastro</h2>
+        <div></div>
+        <p>Ativo</p>
 
+        <form action="cadastro.html" method="post" name="cad" autocomplete="off" onsubmit="validaNome(event)">
+            <h3>1º Fatos e Dados</h3>
+            <label for="nome">Nome</label> <br>
+            <input type="text" id="nome" name="nome"> <br>
+
+            <label for="idade">Faixa etária</label> <br>
+            <select id="idade" name="idade">
+                <option value="menores">Menor de idade</option>
+                <option value="18-34">18 a 34 anos</option>
+                <option value="35-59">35 a 59 anos</option>
+                <option value="60+">60 anos ou mais</option>
+            </select> <br>
+
+            <label for="mail">E-mail</label> <br>
+            <input type="email" id="mail" name="mail"> <br>
+
+            <label for="ender">Endereço</label> <br>
+            <input type="text" id="ender" name="ender"> <br>
+
+            <label for="info">Outras informações</label> <br>
+            <textarea name="info" rows="2" cols="100"></textarea>
+
+            <div>
+                <h3>2º Interesses</h3> <br>
+                <textarea name="inter" rows="2" cols="100"></textarea>
+
+                <h3>3º Sentimentos</h3> <br>
+                <textarea name="sent" rows="2" cols="100"></textarea>
+
+                <h3>4º Valores</h3> <br>
+                <textarea name="valor" rows="2" cols="100"></textarea>
+            </div>
+
+            <br>
+            <button type="submit">GRAVAR</button>
+        </form>
     </main>
 </body>
 </html>

@@ -35,3 +35,13 @@ function entraLista(){
 
     document.body.innerHTML = originalContents;
 }
+
+function validaNome(event) {
+    if(document.cad.nome.value == ""){
+        alert("Preencha o campo 'Nome' para continuar!");
+            document.cad.nome.focus();
+            event.preventDefault();
+    }else{
+        alert("Cadastro enviado com sucesso!");
+    }
+}

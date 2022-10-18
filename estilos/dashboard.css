@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+nav{
+    height: 155vh;
+}
 main > section > div{
     background-color: white;
     display: inline-block;

@@ -10,7 +10,7 @@
 
 html{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 header{   
@@ -95,7 +95,7 @@ nav{
 
     float: left;
     width: 25%;
-    height: 100vh;
+    height: 120vh;
 }
 
 nav > section#logo{
@@ -154,8 +154,12 @@ nav > section#menu > hr{
 
 body{
     background-color: rgb(245, 245, 245);
-    overflow: hidden;
+    
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 main{  
     float: right;
